@@ -1,9 +1,57 @@
 body {
+    /*
+        The general font
+        This is used for paragraphs etc
+    */
+    font-family: 'Raleway', sans-serif;
+    
+    /* White background */
+    background: white;
+    
+    /*
+        Dark gray color for text, using the hex color format
+        Base 16 (hex): 0, 1, 2, 3, ..., 9, a, b, c, d, e, f
+        
+        Black (min): #000
+        You can get different colors in between by playing with
+        those digits (0 to f) and the # sign
+        
+        Or you can use a color picker to get different colors:
+        https://color.adobe.com/
+        
+        Or choose a color from a specific palette:
+        http://flatuicolors.com/
+        
+        White (max): #fff 
+        
+        There are some other color formats CSS accepts 
+    */
     color: #444;
-    font-family: Arial, sans-serif;
 }
 
+img {
+    /* Don't allow images to be wider than the page */
+    max-width: 100%;
+}
+
+/* Set the width of the container */
 .container {
-    width: 100%;
+    /*
+        ...but if it's a big screen,
+        we don't want it too wide,
+        we set a maximum width of 960px
+    */
     max-width: 960px;
+    
+    /* This is a common way to center the container */
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5 {
+    /* Set the headings' font */
+    font-family: 'Rye', cursive;
+    
+    /* Set the color */
+    color: #c0392b;
 }
