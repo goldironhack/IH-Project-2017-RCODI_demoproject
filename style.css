@@ -39,9 +39,9 @@ img {
     /*
         ...but if it's a big screen,
         we don't want it too wide,
-        we set a maximum width of 960px
+        we set a maximum width of 600px
     */
-    max-width: 960px;
+    max-width: 600px;
     
     /* This is a common way to center the container */
     margin: 0 auto;
